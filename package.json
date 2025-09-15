@@ -1,0 +1,11 @@
+{
+  "name": "runjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "vm2": "^3.9.17"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
