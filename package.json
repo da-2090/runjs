@@ -2,10 +2,17 @@
   "name": "runjs",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "deploy": "func azure functionapp publish runjs-function-app"
+  },
   "dependencies": {
     "vm2": "^3.9.17"
   },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "JavaScript execution API for Azure Functions"
 }
